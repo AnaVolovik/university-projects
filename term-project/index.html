@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<title>Вечеринка «Хэллоуин»</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="вечеринка хэллоуин, заказать праздник, заказать вечеринку, заказать корпоратив, тематическая вечеринка, организация мероприятий, хэллоуин Минск">
+		<meta name="description" content="Вечеринка «Хэллоуин»! Организация тематического праздника ивент-агенством «FlaminGo», г.Минск" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="img/witch-hat.png" rel="shortcut icon" type="image/x-icon" />
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+	<body>
+		<div class="preloader">	
+			<div class="preloader-blocks">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>	
+		<div class="overlay">
+			<canvas id="canvas1"></canvas>
+		</div>
+		<div class="main_container">
+			<a id="up"></a>
+			<!-- HEADER -->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html">
+						<p>FlaminGo</p>
+						<p>event agency</p>
+					</a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li id="aboutHalloween">О Хэллоуине</li>
+						<li id="ourParty">Наша вечеринка</li>
+						<li id="ourVideo">Наше видео</li>
+					</ul>
+				</div>
+				<div id="contacts"><a href="#">Контакты</a></div>
+				<div id="contactsBlock">
+					<div id="closeContacts">
+						<img src="img/closeMenu.png" alt="#">
+					</div>
+					<a href="#">
+						<p>МТС: 777-77-77</p>
+					</a>
+					<a href="#">	
+						<p>A1: 777-77-77</p>
+					</a>	
+				</div>
+				<div class="hamburger-menu">
+					<div id="openMenu">
+						<img src="img/burger_icon.png" alt="#">
+					</div>
+					<div id="closeMenu">
+						<img src="img/closeMenu.png" alt="#">
+					</div>
+					<div id="wrap_menu">
+						<ul class="menu_item">
+							<li id="aboutHalloweenAdapt" class="menu_elem">О Хэллоуине</li>
+							<li id="ourPartyAdapt" class="menu_elem">Наша вечеринка</li>
+							<li id="ourVideoAdapt" class="menu_elem">Наше видео</li>
+							<li>
+								<a id="contactsElem" class="menu_elem" href="#">Контакты</a>
+								<ul class="submenu">
+									<li>
+										<a href="#">
+											<p>МТС: 777-77-77</p>
+										</a>
+									</li>	
+									<li>	
+										<a href="#">
+											<p>A1: 777-77-77</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+			<!-- SECTION 1 -->
+			<section class="section_one">
+				<div class="headings">
+					<h1>Вечеринка «Хэллоуин»</h1>
+					<ul class="description">
+						<li>Декор</li>
+						<li>Аниматоры</li>
+						<li>Игровая программа</li>
+					</ul>
+					<div>
+						<button id="orderBtn" class="btn_order">Заказать</button>
+					</div>
+				</div>
+				<div class="animate_img_one">
+					<img id="witch" src="img/witch.png" onclick="sound_witch()" alt="#">
+				</div>
+			</section>
+			<div id="order_form">
+				<form class="form" action="#" method="get">
+					<div class="wrap_btn tooltip" data-info="Закрыть">
+						<img id="cancel" src="img/close.png" alt="#">
+					</div>
+					<div class="form_title">
+						<p>Для заказа услуги заполните поля:</p>
+					</div>
+						<div class="wrap_inputs">
+						<label class="user_name">
+							<input id="name" type="text" name="username"  placeholder="имя">
+							<span id="resultName"></span>
+						</label>
+						<label class="user_name">
+							<input id="email" type="text" name="mail"  placeholder="e-mail">
+							<span id="resultEmail"></span>
+						</label>
+					</div>
+					<div class="wrap_formOrderBtn">
+						<input id="validate" type="submit" value="Заказать">
+					</div>	
+				</form>
+			</div>
+		</div>
+		<div class="wave_divider">
+			<div class="divider_bottom">
+				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+				</svg>
+			</div>
+		</div>
+		<!-- SECTION 2 -->
+		<div class="container_yellow">
+			<a id="anchorSection2"></a>
+			<section class="section_two">
+				<div class="animate_img_two">
+					<img id="ween" src="img/ween2.png" onclick="sound_ween()" alt="#">
+				</div>
+				<div class="text_about">
+					<h2>О Хэллоуине</h2>
+					<p><span class="decorWord">Хэллоуин</span> – самый необычный, мрачный и&nbsp;загадочный праздник, который празднуется 31&nbsp;октября вот уже более 1000 лет!</p>
+					<p>Люди верили,&nbsp;что&nbsp;в&nbsp;этот&nbsp;день мертвые могут посещать живых. В&nbsp;современном мире этот празник утратил свое религиозное значение и&nbsp;воспринимается как&nbsp;повод&nbsp;для веселья. Он&nbsp;приходится по душе&nbsp;не только детям, но&nbsp;и&nbsp;поколениям постарше.</p>
+					<p>Если вы любите Хэллоуин&nbsp;так же,&nbsp;как и мы, вероятно,&nbsp;вам захочется создать идеальное настроение&nbsp;для предстоящей вечеринки.</p>
+				</div>
+				<div id="spider">
+					<img src="img/spider.gif" alt="#">
+				</div>
+			</section>
+		</div>	
+		<div class="wave_divider">
+			<div class="divider_top">
+				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+				</svg>
+			</div>
+		</div>
+		<!-- SECTION 3 -->
+		<div class="container_blue">
+			<a id="anchorSection3"></a>
+			<section class="section_three desctop">
+				<h3>Наша вечеринка</h3>
+				<div class="block">
+					<div class="text left">
+						<p>Правильная атмосфера — правильный праздник. А&nbsp;ощущение праздника приходит вместе с&nbsp;атрибутами. Мы&nbsp;выполним декор помещения, чтобы вы максимально погрузились в&nbsp;атмосферу Хэллоуина.</p>
+					</div>
+					<div class="wrap_gallery">
+						<div class="gallery">
+							<div class="galleryDecor"></div>
+						</div>
+					</div>	
+				</div>
+				<div class="block">
+					<div class="wrap_gallery">	
+						<div class="gallery">
+							<div class="galleryAnimators"></div>
+						</div>
+					</div>	
+					<div class="text right">
+						<p>А также подберем подходящих аниматоров, ростовые куклы и&nbsp;сделаем аквагрим по&nbsp;вашему желанию.</p>
+					</div>
+				</div>
+				<div class="block">
+					<div class="text left">
+						<p>Организуем различные конкурсы, представления фокусника, фаер шоу. И&nbsp;все это с&nbsp;музыкальным сопровождением на&nbsp;ваш вкус!</p>
+					</div>
+					<div class="wrap_gallery">
+						<div class="gallery">
+							<div class="galleryPlay"></div>
+						</div>
+					</div>	
+				</div>
+				<div class="block">
+					<div class="wrap_gallery">
+						<div class="gallery">
+							<div class="galleryFood"></div>
+						</div>
+					</div>	
+					<div class="text right">
+						<p>И вам точно понравится наш кэнди-бар. Более того, мы&nbsp;проведем мастер-класс по&nbsp;приготовлению тематических закусок!</p>
+					</div>
+				</div>
+			</section>
+			<!-- SECTION 3 FOR MIN ADAPTIVE -->
+			<section class="section_three section adaptive">
+				<h5>Наша вечеринка</h5>
+				<div class="block">
+					<div class="text left">
+						<p>Правильная атмосфера — правильный праздник. А&nbsp;ощущение праздника приходит вместе с&nbsp;атрибутами. Мы&nbsp;выполним декор помещения, чтобы вы максимально погрузились в&nbsp;атмосферу Хэллоуина.</p>
+					</div>
+					<div class="wrap_gallery">
+						<div class="gallery">
+							<div class="galleryDecor"></div>
+						</div>
+					</div>	
+				</div>
+				<div class="block">
+					<div class="text right">
+						<p>А также подберем подходящих аниматоров, ростовые куклы и&nbsp;сделаем аквагрим по&nbsp;вашему желанию.</p>
+					</div>
+					<div class="wrap_gallery">	
+						<div class="gallery">
+							<div class="galleryAnimators"></div>
+						</div>
+					</div>
+				</div>
+				<div class="block">
+					<div class="text left">
+						<p>Организуем различные конкурсы, представления фокусника, фаер шоу. И&nbsp;все это с&nbsp;музыкальным сопровождением на&nbsp;ваш вкус!</p>
+					</div>
+					<div class="wrap_gallery">
+						<div class="gallery">
+							<div class="galleryPlay"></div>
+						</div>
+					</div>	
+				</div>
+				<div class="block">
+					<div class="text right">
+						<p>И вам точно понравится наш кэнди-бар. Более того, мы&nbsp;проведем мастер-класс по&nbsp;приготовлению тематических закусок!</p>
+					</div>
+					<div class="wrap_gallery">
+						<div class="gallery">
+							<div class="galleryFood"></div>
+						</div>
+					</div>	
+				</div>
+			</section>
+			<div class="wave_divider">
+				<div class="divider_bottom">
+					<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+						<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+					</svg>
+				</div>
+			</div>	
+		</div>
+		<!-- SECTION 4 -->
+		<div class="container_yellow">
+			<a id="anchorSection4"></a>
+			<section class="section_four" >
+				<h4>Наше видео</h4>
+				<div class="slider">
+					<div class="slide active">
+						<video class="active" loop muted>
+							<source src="media/video1.mp4">
+						</video>
+					</div>
+					<div class="slide">
+						<video loop muted>
+							<source src="media/video2.mp4">
+						</video>
+					</div>
+					<div class="slide">
+						<video loop muted>
+							<source src="media/video3.mp4">
+						</video>
+					</div>
+					<div class="navigation">
+						<i class="fas fa-chevron-left prev-btn"></i>
+						<i class="fas fa-chevron-right next-btn"></i>
+					</div>
+					<div class="navigation-visibility">
+						<div class="slide-icon active"></div>
+						<div class="slide-icon"></div>
+						<div class="slide-icon"></div>
+					</div>
+					<div class="tools">
+						<div class="start"></div>
+						<div class="play"></div>
+						<div class="volume"></div>
+						<div class="soundOff"></div>
+					</div>
+				</div>
+				<div id="up_arrow">
+					<img src="img/up_arrow.png" alt="#">
+				</div>
+			</section>
+		</div>
+		<!-- FOOTER -->
+		<div class="footer container_blue">
+			<div class="main">	
+				<div class="info">
+					<div class="logo">
+						<a href="index.html">
+							<p>FlaminGo</p>
+							<p>event agency</p>
+						</a>
+					</div>
+					<div class="nav_footer">
+						<ul class="nav_btns">
+							<li><a href="#" id="orderFooter">Заказать услугу</a></li>
+							<li><a id="contactsFooter" href="#">Контакты</a></li>
+						</ul>
+						<ul class="nav_btns">	
+							<li><a href="#anchorSection2">О Хэллоуине</a></li>
+							<li><a href="#anchorSection3">Наша вечеринка</a></li>
+							<li><a href="#anchorSection4">Наше видео</a></li>
+							
+						</ul>
+						<ul class="icons desctop">
+							<li><a href="#"><img src="img/youtube.png" alt="#"></a></li>
+							<li><a href="#"><img src="img/facebook.png" alt="#"></a></li>
+							<li><a href="#"><img src="img/instagram.png" alt="#"></a></li>
+							<li><a href="#"><img src="img/whatsapp.png" alt="#"></a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="icons adaptive">
+					<li><a href="#"><img src="img/youtube.png" alt="#"></a></li>
+					<li><a href="#"><img src="img/facebook.png" alt="#"></a></li>
+					<li><a href="#"><img src="img/instagram.png" alt="#"></a></li>
+					<li><a href="#"><img src="img/whatsapp.png" alt="#"></a></li>
+				</ul>
+				<div class="copyright">
+					<p>© Ana Volovik 2022</p>
+				</div>
+			</div>	
+		</div>
+		
+		<!--script-->
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+</html>
